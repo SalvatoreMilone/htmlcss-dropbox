@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+/* -----------nav--------- */
+.mainnav{
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.mainnav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo{
+    position: relative;
+    top: 5px;
+}
+.nav1{
+    float: left;
+}
+.nav2{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+} 
+
+nav a:hover{
+    color:rgb(52, 52, 52);
+    transition: 0.5s;
+}
+/* -----------sc1--------- */
+.sc1{
+    margin-top: 80px;
+    min-height: 500px;
+    background-color: #b4d0e7;
+    padding: 0 10%;
+}
+.sc1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.sc1 h2{
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.sc1container{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    padding-top: 60px;
+}
+.sc1subc{
+    margin: 20px 0;
+}
+.sc1img{
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    width: 70%;
+}
+.sc1icona{
+    scroll-behavior: smooth;
+    font-size: 40px;
+    color: black;
+}
+/* -----------sc2--------- */
+.sc2{
+    min-height: 1000px;
+    background-color: #ffffff;
+    padding: 0 15%;
+    padding-top: 150px;
+}
+/* -----------btn--------- */
+.btn1{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 15px;
+}
+
+.btn1:hover{
+    background-color: #3b85fe;
+    color: white;
+}
