@@ -162,7 +162,7 @@ tr{
 /* -----------sc3--------- */
 
 .sc3{
-    min-height: 1000px;
+    min-height: 500px;
     background-color: #ffffff;
     padding: 0 15%;
     padding-top: 150px;
@@ -180,6 +180,54 @@ tr{
 }
 .sc3textmargin{
     margin: 30px 0;
+}
+.sc3::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* ----------sc4---------- */
+
+.sc4{
+    min-height: 500px;
+    background-color: #ffffff;
+    padding: 0 15%;
+    padding-top: 150px;
+}
+.sc4head{
+    height: 50px;
+    font-weight: 900;
+}
+
+.sc4row{
+    margin: 2% 0;
+}
+
+
+.sc4article{
+    float: left;
+    width: 30%;
+    min-height: 300px;
+}
+
+.sc4articlemid{
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    margin: 0 5%;
+}
+
+.sc4row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sc4article div{
+    margin-bottom: 20px;
+}
+.sc4articlemid div{
+    margin-bottom: 20px;
 }
 /*--btn--------- */
 .btn1{
