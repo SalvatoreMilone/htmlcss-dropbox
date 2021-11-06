@@ -48,7 +48,7 @@ nav a:hover{
 }
 /* -----------sc1--------- */
 .sc1{
-    margin-top: px;
+    margin-top: 40px;
     min-height: 500px;
     background-color: #b4d0e7;
     padding: 0 10%;
@@ -159,6 +159,28 @@ tr{
 .sc2footermargin *{
     padding: 10px;
 }
+/* -----------sc3--------- */
+
+.sc3{
+    min-height: 1000px;
+    background-color: #ffffff;
+    padding: 0 15%;
+    padding-top: 150px;
+}
+.sc3img{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.sc3container{
+    width: 35%;
+    display: inline-block;
+    float: left;
+    margin: 40px;
+}
+.sc3textmargin{
+    margin: 30px 0;
+}
 /*--btn--------- */
 .btn1{
     background-color: #0061FF;
@@ -175,8 +197,15 @@ tr{
 .sc2foot .btn1{
     float: right;
 }
-.sc2foot .bold{
-    font-size: 20px;
+.btn2{
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid black;
+}
+.btn2:hover{
+    color: rgb(54, 54, 54);
+    border: 1px solid rgb(54, 54, 54);
 }
 /* -------text-------------- */
 .textbig{
@@ -200,4 +229,7 @@ tr{
 }
 .bluetext{
     color: #0061FF;
+}
+.sc2foot .bold{
+    font-size: 20px;
 }
