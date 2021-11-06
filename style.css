@@ -6,6 +6,7 @@
     font-weight: 500;
     text-decoration: none;
     scroll-behavior: smooth;
+    list-style: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
@@ -47,7 +48,7 @@ nav a:hover{
 }
 /* -----------sc1--------- */
 .sc1{
-    margin-top: 80px;
+    margin-top: px;
     min-height: 500px;
     background-color: #b4d0e7;
     padding: 0 10%;
@@ -106,14 +107,14 @@ nav a:hover{
     border: 1px solid rgb(228, 228, 228);
     float: left;
     width: 30%;
-    height: 250px;
+    min-height: 1000px;
 }
 
 .sc2leftmid{
     border: 1px solid rgb(228, 228, 228);
     float: left;
     width: 30%;
-    height: 250px;
+    min-height: 1000px;
     margin: 0 5%;
 }
 
@@ -132,13 +133,34 @@ nav a:hover{
     margin-right: 10px;
 }
 .sc2leftmargin{
-    margin: 20px;
+    margin: 30px;
 }
-/* -----------btn--------- */
+.sc2ul li{
+    margin: 10px 0;
+}
+.sc2ul2 li{
+    margin: 30px 0;
+}
+.sc2ul2 li hr{
+    width: 60px;
+    border: 1px solid rgb(228, 228, 228);
+}
+table{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+tr{
+    height: 50px;
+}
+.mark{
+    color: #0061FF;
+}
+/*--btn--------- */
 .btn1{
     background-color: #0061FF;
     color: white;
     padding: 10px 15px;
+    text-align: center;
 }
 
 .btn1:hover{
@@ -155,4 +177,17 @@ nav a:hover{
 .textmed{
     font-size:24px ;
     font-weight: 700;
+}
+
+.bold{
+    font-weight: 900;
+}
+.semibold{
+    font-weight: 700;
+}
+.greytext{
+    color: grey;
+}
+.bluetext{
+    color: #0061FF;
 }
