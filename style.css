@@ -91,8 +91,9 @@ nav a:hover{
     padding-top: 150px;
 }
 .sc2foot{
-    height: 50px;
+    min-height: 50px;
     border: 1px solid rgb(228, 228, 228);
+    margin-bottom: 20px;
 }
 .sc2head{
     height: 50px;
@@ -155,6 +156,9 @@ tr{
 .mark{
     color: #0061FF;
 }
+.sc2footermargin *{
+    padding: 10px;
+}
 /*--btn--------- */
 .btn1{
     background-color: #0061FF;
@@ -168,6 +172,12 @@ tr{
     color: white;
 }
 
+.sc2foot .btn1{
+    float: right;
+}
+.sc2foot .bold{
+    font-size: 20px;
+}
 /* -------text-------------- */
 .textbig{
     font-size:40px ;
