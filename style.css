@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,6 @@
     list-style: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 /* -----------nav--------- */
 .mainnav{
     height: 80px;
@@ -49,7 +49,7 @@ nav a:hover{
 /* -----------sc1--------- */
 .sc1{
     margin-top: 40px;
-    min-height: 500px;
+    min-height: 450px;
     background-color: #b4d0e7;
     padding: 0 10%;
 }
@@ -76,7 +76,7 @@ nav a:hover{
     display: inline-block;
     position: relative;
     top: 60px;
-    width: 70%;
+    width: 75%;
 }
 .sc1icona{
     scroll-behavior: smooth;
@@ -229,6 +229,124 @@ tr{
 .sc4articlemid div{
     margin-bottom: 20px;
 }
+/* ---------------sc5-------- */
+.sc5{
+    min-height: 500px;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+}
+.sc5row1{
+    width: 37%;
+    margin: 15% 0 50px 15%;
+    height: 100%;
+}
+.sc5row1 a{
+    text-decoration: underline;
+}
+.sc5row2{
+    display: inline-block;
+    min-height: 50%;
+}
+.sc5subrow{
+    display: inline-block;
+}
+
+.sc5row2container{
+    width: 100%;
+    display: block;
+    height: 30vw;
+}
+.sc5mid{
+    display: inline-block;
+    background-color: RGB(245, 245, 245);
+    width: 38vw;
+    height: 30vw;
+    overflow: auto;
+    padding: 0 40px;
+}
+.sponsor{
+    position: relative;
+    width: 15vw;
+    min-height: 15vw;
+    display: inline-block;
+}
+.sc5mid img{
+    margin-top: 40px;
+}
+.sc5mid hr{
+    margin-top: 40px;
+    width: 50px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.sc5midtext{
+    margin-top: 40px;
+}
+
+.midpage{
+    margin-top: 150px;
+}
+.sponsorimg{
+    filter: invert(1);
+    width: 50%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.sponsor1{
+    background-color: RGB(162, 211, 155);
+    border: 10px solid RGB(208, 232, 204);
+}
+.sponsor2{
+    background-color: RGB(98, 8, 43);
+}
+.sponsor3{
+    background-color: RGB(1, 147, 206);
+}
+.sponsor4{
+    background-color: RGB(254, 28, 29);
+}
+.sponsor5{
+    background-color: RGB(213, 0, 32);
+}
+.sponsor6{
+    background-color: RGB(180, 208, 230);
+}
+.sponsor7{
+    background-color: #0d2480;
+}
+.sponsor8{
+    background-color: RGB(255, 217, 48);
+}
+.leftsponsor{
+    float: left;
+}
+.rsponsor{
+    float: right;
+}
+.sc5subsubrow::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.sc5mid *{
+    font-weight: 600;
+}
+.sc5row3{
+    background-color: RGB(180, 208, 230);
+    height: 300px;
+    width: 98vw;
+    padding: 110px 150px 0 150px;
+}
+.sc5row3text{
+    color: RGB(97, 8, 43);
+    font-weight: 900;
+    width: 40%;
+    display: inline-block;
+}
+.sc5row3 a{
+    float: right;
+}
 /*--btn--------- */
 .btn1{
     background-color: #0061FF;
@@ -250,10 +368,20 @@ tr{
     padding: 10px 15px;
     text-align: center;
     border: 1px solid black;
+    background-color: white;
 }
 .btn2:hover{
     color: rgb(54, 54, 54);
     border: 1px solid rgb(54, 54, 54);
+}
+.btn3{
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    background-color: white;
+}
+.btn3:hover{
+    color: rgb(54, 54, 54);
 }
 /* -------text-------------- */
 .textbig{
