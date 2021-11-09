@@ -10,6 +10,14 @@
     list-style: none;
 }
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 /* -----------nav--------- */
 .mainnav{
     height: 80px;
@@ -230,8 +238,10 @@ tr{
     margin-bottom: 20px;
 }
 /* ---------------sc5-------- */
+
 .sc5{
     min-height: 500px;
+    width: 100%;
     background-color: #ffffff;
     margin-bottom: 100px;
 }
@@ -245,7 +255,6 @@ tr{
 }
 .sc5row2{
     display: inline-block;
-    min-height: 50%;
 }
 .sc5subrow{
     display: inline-block;
@@ -254,12 +263,16 @@ tr{
 .sc5row2container{
     width: 100%;
     display: block;
-    height: 30vw;
+}
+.sc5row2container::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 .sc5mid{
     display: inline-block;
     background-color: RGB(245, 245, 245);
-    width: 38vw;
+    width: 40vw;
     height: 30vw;
     overflow: auto;
     padding: 0 40px;
@@ -333,10 +346,10 @@ tr{
     font-weight: 600;
 }
 .sc5row3{
-    background-color: RGB(180, 208, 230);
+    background-color: rgb(180, 208, 230);
     height: 300px;
-    width: 98vw;
-    padding: 110px 150px 0 150px;
+    width: 100%;
+    padding: 100px 150px 100px 150px;
 }
 .sc5row3text{
     color: RGB(97, 8, 43);
@@ -347,6 +360,9 @@ tr{
 .sc5row3 a{
     float: right;
 }
+/* ---------------sc6-------- */
+
+
 /*--btn--------- */
 .btn1{
     background-color: #0061FF;
