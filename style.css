@@ -364,7 +364,7 @@ tr{
 .sc6{
     width: 100%;
     background-color: #ffffff;
-    margin: 10% 15%;
+    margin: 10% 15% 10% 5%;
 }
 .faq{
     width: 70%;
@@ -408,6 +408,59 @@ tr{
 }
 .faq:hover .faqarrowhidden{
     display: inline-block;
+}
+/* -------footer-------- */
+footer{
+    min-height: 450px;
+    background-color: RGB(0, 0, 0);
+    padding: 0 5%;
+}
+.footblock{
+    width: 15%;
+    padding-top: 7% ;
+    display: inline-block;
+    margin-right: 2%;
+    float: left;
+}
+.footblock ul li a{
+    color: white;
+}
+.footblock ul li{
+    margin-top: 10px;
+}
+.footbox::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer2{
+    margin-top: 5%;
+    color: rgb(154, 154, 154);
+    display: inline-block;
+    width: 10%;
+    font-size: 12px;
+}
+.footer2 span{
+    padding-top: 20px;
+    border-top: 2px solid white;
+}
+.footer2 div{
+    margin-top: 20px;
+}
+.footer2hidden{
+    display: none;
+}
+.footer2:hover .footer2hidden{
+    display: block;
+}
+.footarrowhidden{
+    display: none;
+}
+.footer2:hover .footarrowhidden{
+    display: inline-block;
+}
+.footer2:hover .footarrow{
+    display: none;
 }
 /*--btn--------- */
 .btn1{
