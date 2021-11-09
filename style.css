@@ -361,8 +361,54 @@ tr{
     float: right;
 }
 /* ---------------sc6-------- */
+.sc6{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 10% 15%;
+}
+.faq{
+    width: 70%;
+    margin:  0;
+    border-bottom: 1px solid grey;
+    padding: 40px 0;
+}
+.faqsectiontitle{
+    border-bottom: 1px solid grey;
+    padding: 40px 0;
+    width: 70%;
+    font-size:40px ;
+    font-weight: 700;
+}
+.faqarrow{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+.faqarrowhidden{
+    float: right;
+    margin-right: 50px;
+    display: none;
+}
 
+.faqtitle, .faqhidden{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+.faqhidden{
+    margin: 5%;
+    display: none;
+}
 
+.faq:hover .faqhidden{
+    display: block;
+}
+.faq:hover .faqarrow{
+    display: none;
+}
+.faq:hover .faqarrowhidden{
+    display: inline-block;
+}
 /*--btn--------- */
 .btn1{
     background-color: #0061FF;
