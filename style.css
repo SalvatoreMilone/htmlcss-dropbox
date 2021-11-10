@@ -145,11 +145,9 @@ nav a:hover{
     margin: 30px;
 }
 .sc2ul li{
-    margin: 10px 0;
+    margin: 20px 0;
 }
-.sc2ul2 li{
-    margin: 30px 0;
-}
+
 .sc2ul2 li hr{
     width: 60px;
     border: 1px solid rgb(228, 228, 228);
@@ -161,7 +159,8 @@ table{
 tr{
     height: 50px;
 }
-.mark{
+
+.fa-check{
     color: #0061FF;
 }
 .sc2footermargin *{
@@ -362,20 +361,19 @@ tr{
 }
 /* ---------------sc6-------- */
 .sc6{
-    width: 100%;
+    width: 70%;
     background-color: #ffffff;
-    margin: 10% 15% 10% 5%;
+    margin: auto;
+    margin-bottom: 15%;
 }
 .faq{
-    width: 70%;
-    margin:  0;
     border-bottom: 1px solid grey;
     padding: 40px 0;
 }
+
 .faqsectiontitle{
     border-bottom: 1px solid grey;
     padding: 40px 0;
-    width: 70%;
     font-size:40px ;
     font-weight: 700;
 }
@@ -419,7 +417,7 @@ footer{
     width: 15%;
     padding-top: 7% ;
     display: inline-block;
-    margin-right: 2%;
+    margin-right: 5%;
     float: left;
 }
 .footblock ul li a{
