@@ -14,10 +14,6 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
-::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
 /* -----------nav--------- */
 .mainnav{
     height: 80px;
@@ -242,50 +238,41 @@ tr{
     margin-bottom: 20px;
 }
 /* ---------------sc5-------- */
-
 .sc5{
-    min-height: 500px;
-    width: 100%;
+    min-height: 800px;
     background-color: #ffffff;
-    margin-bottom: 100px;
+    padding-top: 150px;
 }
 .sc5row1{
-    width: 37%;
-    margin: 15% 0 50px 15%;
+    padding: 0 15%;
+    margin-bottom: 5%;
+}
+.sc5row1text{
+    width: 53%;
+    font-size:40px ;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.sc5main{
+    width: 100%;
+    height: 30vw;
+}
+.sponsorcontainer {
+    width: 30%;
     height: 100%;
+    float: left;
 }
-.sc5row1 a{
-    text-decoration: underline;
-}
-.sc5row2{
-    display: inline-block;
-}
-.sc5subrow{
-    display: inline-block;
+.sponsorbox{
+    background-color: brown;
+    height: 15vw;
+    width: 50%;
+    float: left;
+    position: relative;
 }
 
-.sc5row2container{
-    width: 100%;
-    display: block;
-}
-.sc5row2container::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-.sc5mid{
-    display: inline-block;
-    background-color: RGB(245, 245, 245);
-    width: 40vw;
-    height: 30vw;
-    overflow: auto;
-    padding: 0 40px;
-}
-.sponsor{
-    position: relative;
-    width: 15vw;
-    min-height: 15vw;
-    display: inline-block;
+/* -sc5 mid section- */
+.sc5center *{
+    font-weight: 600;
 }
 .sc5mid img{
     margin-top: 40px;
@@ -300,7 +287,8 @@ tr{
 }
 
 .midpage{
-    margin-top: 150px;
+    margin-top: 50px;
+    padding: 0 40px;
 }
 .sponsorimg{
     filter: invert(1);
@@ -335,34 +323,18 @@ tr{
 .sponsor8{
     background-color: RGB(255, 217, 48);
 }
-.leftsponsor{
+.sc5center{
+    width: 40%;
+    height: 100%;
     float: left;
+    background-color: rgb(230, 230, 230);
+    overflow: auto;
 }
-.rsponsor{
-    float: right;
-}
-.sc5subsubrow::after{
+/* ---- */
+.afterleft::after{
     content: "";
     clear: both;
     display: table;
-}
-.sc5mid *{
-    font-weight: 600;
-}
-.sc5row3{
-    background-color: rgb(180, 208, 230);
-    height: 300px;
-    width: 100%;
-    padding: 100px 150px 100px 150px;
-}
-.sc5row3text{
-    color: RGB(97, 8, 43);
-    font-weight: 900;
-    width: 40%;
-    display: inline-block;
-}
-.sc5row3 a{
-    float: right;
 }
 /* ---------------sc6-------- */
 .sc6{
