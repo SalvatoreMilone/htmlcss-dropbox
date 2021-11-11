@@ -159,7 +159,12 @@ table{
 tr{
     height: 50px;
 }
-
+.sc2ul li .fas{
+    margin: 0 -20px; 
+}
+.sc2ul li span{
+    margin-left: 25px; 
+}
 .fa-check{
     color: #0061FF;
 }
